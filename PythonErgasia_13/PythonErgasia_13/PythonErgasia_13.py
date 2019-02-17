@@ -14,7 +14,7 @@ def maxDistance(arr, x):
         else: 
             l += 1
           
-    print("The closest pair is",arr[pos_l],"and",arr[pos_r])
+    print("The pair",arr[pos_l],"and",arr[pos_r],",with sum =",arr[pos_l]+arr[pos_r],",is the closest to",x)
   
 value = 10000000   
 print("Enter all the numbers of the list:")
